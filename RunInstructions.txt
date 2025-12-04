@@ -1,0 +1,15 @@
+The project is separated into diferent notebooks, which they need to be runned in a specific order.
+Assuming the user has access to the same google drive folder as the developers (https://drive.google.com/drive/folders/1T-QbzDiMJHy_QTBV-LvBwRRlr_M-3qEv?usp=sharing), they do not need to apply any modifications and just run the notebooks in this order:
+
+1: ML_Preprocess.ipynb
+2: Imbalance.ipynb
+3: Decision_tree-LDA-KNN-SVM.ipynb
+4: GNB_LR_extraTrees_MLP.ipynb
+5: QDA_RandomForest.ipynb
+6: Clustering
+7: VotingStacking.ipynb
+8: Compare_models_val.ipynb
+
+The user can skip the the two first steps if they do not wish to rerun the preprocessing steps again and use the data in the "data" folder.
+In case the user does not have acces to the drive, they will have to change the routes from the notebooks to the one from a directory of their choice.
+If for some reason the google drive was not share succesfully, please contact us.
